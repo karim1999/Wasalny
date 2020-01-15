@@ -2,6 +2,7 @@ export default {
 }
 
 export const Colors = {
+    "backgroundColor": "#FFFFFF",
     "mainColor": "#3DB24B",
     "secondaryColor": "#DADEE3"
 };

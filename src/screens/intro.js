@@ -23,6 +23,7 @@ export default class extends Component{
 const Styles= StyleSheet.create({
     background: {
         flex: 1,
+        backgroundColor: Colors.backgroundColor
     },
     layer: {
         flex: 1,

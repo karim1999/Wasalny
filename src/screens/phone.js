@@ -5,7 +5,6 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 import Countries from 'src/countries';
 import { SvgUri } from 'react-native-svg';
 import MainButton from '../components/mainButton';
-import SecondaryButton from '../components/secondaryButton';
 
 
 export default class extends Component{
@@ -48,7 +47,8 @@ export default class extends Component{
 
 const Styles= StyleSheet.create({
     background: {
-        flex: 1
+        flex: 1,
+        backgroundColor: Colors.backgroundColor
     },
     top: {
         padding: 20,

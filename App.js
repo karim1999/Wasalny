@@ -7,14 +7,12 @@
  */
 
 import React, {Component} from 'react';
-// import {Text, Button} from 'react-native';
-// import Intro from './src/screens/intro';
-import Phone from './src/screens/phone';
+import Signin from './src/screens/signin';
 
 export default class App extends Component{
     render(){
         return (
-            <Phone></Phone>
+            <Signin></Signin>
         );
     }
 };
