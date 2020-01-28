@@ -7,12 +7,12 @@
  */
 
 import React, {Component} from 'react';
-import Signin from './src/screens/signin';
+import Signup from './src/screens/signup';
 
 export default class App extends Component{
     render(){
         return (
-            <Signin></Signin>
+            <Signup></Signup>
         );
     }
 };
